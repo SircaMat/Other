@@ -1,0 +1,7 @@
+
+# --- Core app ---
+streamlit>=1.29,<2.0     # popover() is available from ~1.29+
+pymupdf==1.24.9          # import name is `fitz`
+
+# --- Optional (for better token estimates); your code falls back if missing ---
+tiktoken>=0.7.0
